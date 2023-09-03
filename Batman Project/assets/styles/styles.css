@@ -1,0 +1,463 @@
+html{
+background-color: #000000;
+height: auto;
+margin: 0 auto;
+background-image: url(/assets/illustrations/Bathome1.png);
+background-repeat: no-repeat; 
+}
+body{
+    max-width: 1300px;
+    border: 1px solid white;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px; 
+    height: auto;
+      
+}
+header{
+    height: 150px;
+}
+ header img{
+    top: 50px;
+    left: 250px;
+    position:absolute;
+ }
+ header img:hover{
+background-color: #f8fa84;
+ }
+ .p1{
+    float: right;
+    color: white;
+    position: absolute;
+    top:10px;
+    right: 250px;
+    font-family: 'Rajdhani';
+   font-size: 36px;
+ }
+
+ p{
+    color: #ffffff;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+ }
+ .paragraph_1{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+ }
+ .paragraph_2{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    font-size: 40px;
+ }
+
+ .fig1{
+    position: relative;
+    top: -100px;
+    left: 1205px;
+    
+ }
+ .fig1:hover{
+  background-color: #f8fa84;
+  width: 100px;
+  left: 1205px;
+ }
+ .fig2{
+    position:relative;
+    top: -150px;
+    left: 1250px;
+ }
+
+ .fig3{
+    position: relative;
+    top: -150px;
+    left: 1250px;
+ }
+
+ .fig4{
+    position: relative;
+    top: -150px;
+    left: 1250px;
+ }
+ .fig5{
+    position: relative;
+    top: -150px;
+    left: 1205px;
+ }
+ .fig5:hover{
+  background-color: #f8fa84;
+  width: 100px;
+ }
+ .button_1{
+   text-align: center;
+   position: relative;
+   top: -350px;
+   left: 80px;
+
+   
+ }
+
+ #bt1{
+  background-image: linear-gradient(to right,#eddebf,#890008);
+  opacity: 40%;
+  border: 0px;
+  width: 250px;
+   height: 70px;
+   color: #ffffff;
+   font-family: 'Rajdhani';
+   font-size: 20px;
+ }
+ #bt1:hover{
+  opacity: 100%;
+ }
+ #bt2{
+  background-image: linear-gradient(to right,#eddebf,#890008);
+  opacity: 40%;
+  border: 0px;
+  width: 250px;
+   height: 70px;
+  color: #ffffff;
+  font-family: 'Rajdhani';
+   font-size: 20px;
+ }
+ #bt2:hover{
+  opacity: 100%;
+ }
+ .flèche_down{
+  text-align: center;
+  position: relative;
+  left: 600px;
+ }
+ h1{
+   color: #ffffff;
+   position: relative;
+   left: 50px ;
+   font-family: 'Rajdhani', sans-serif;
+    font-size: 36px;
+ }
+ .para{
+   font-size: 20px;
+   left: 50px;
+   position: relative;
+   margin-right:150px;
+ }
+ figcaption{
+   color: #ffffff;
+   position: relative;
+   left: 100px;
+ }
+ .Bathome2:hover{
+  zoom: 105%;
+ }
+ .Bathome3{
+   position: relative;
+   top: -515px;
+   left: 450px;
+ }
+ .Bathome3:hover{
+  zoom: 105%;
+ }
+figcaption{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 22px;
+}
+ .Bathome4{
+   position: relative;
+   top: -1030px;
+   left: 900px;
+ }
+ .Bathome4:hover{
+  zoom: 105%;
+ }
+ #titre2{
+   position: relative;
+   top: -1000px;
+ }
+ .Bathome13{
+   position: relative;
+   top: -1100px;
+   left: 100px;
+ }
+ #Bathome13P{
+   position: relative;
+   top: -1100px;
+ }
+ .Bathome5{
+   position: relative;
+   top: -1100px;
+ }
+ .Bathome5:hover{
+  zoom: 105%;
+ }
+ .Bathome6{
+   position: relative;
+   top: -1615px;
+   left: 450px;
+ }
+ .Bathome6:hover{
+  zoom: 105%;
+ }
+ .Bathome7{
+   position: relative;
+   top: -2130px;
+   left: 900px;
+ }
+ .Bathome7:hover{
+  zoom: 105%;
+ }
+ #titre3{
+  position: relative;
+  top: -2000px;
+ }
+ #para2{
+  position: relative;
+  top: -2000px;
+ }
+ .Bathome9{
+  position:relative;
+  top: -2000px;
+ }
+ .Bathome9:hover{
+  zoom: 105%;
+ }
+ .Bathome8{
+  position: relative;
+  top: -2515px;
+  left: 450px;
+ }
+ .Bathome8:hover{
+  zoom: 105%;
+ }
+ .Bathome10{
+  position: relative;
+  top: -3025px;
+  left: 900px;
+ }
+ .Bathome10:hover{
+  zoom: 105%;
+ }
+ #titre4{
+  position: relative;
+  top: -3000px;
+ }
+ #para3{
+  position: relative;
+  top: -3000px;
+ }
+ .Bathome11{
+  position: relative;
+  top: -3000px;
+  left:-100px
+ }
+ #titre5{
+  position: relative;
+  top: -2900px;
+ }
+ .Bathome_ba1{
+  position: relative;
+  top: -2800px;
+  left: 350px;
+ }
+ .contenu{
+  border: 1px solid white;
+  width: 400px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  top: -3060px;
+  position: relative;
+  left: 795px;
+  height: 245px;
+  background-image:linear-gradient(to bottom right, #eddebf,#19587D);
+  font-family: 'Rajdhani', sans-serif;
+font-size: 15px;
+ }
+ .icon_flèche_1{
+  position: relative;
+  top: -3600px;
+  left: 100px;
+ }
+ .icon_flèche_2{
+  position: relative;
+  top: -3600px;
+  left: 1100px;
+ }
+ .video{
+  position: relative;
+  top: -3000px;
+  text-align: center;
+ }
+ form{
+  border: 1px solid white;
+  position: relative;
+  top: -2900px;
+  background-image:linear-gradient(to bottom right, #eddebf,#19587D);
+  height: 700px; 
+}
+.PRENOMS{
+  text-align: center;
+}
+ h2{
+  color: #ffffff;
+  position: relative;
+  left: 400px;
+
+ }
+ #hr{
+  width:600px;
+  position: relative;
+  left: 50px;
+  top: -10px;
+ }
+ #email{
+  width: 600px;
+  position: relative;
+  left: 400px;
+  border-top: 0;
+  padding-top: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  background-color: transparent;
+ }
+ #checkbox{
+  width: 20px;
+  height: 20px;
+ }
+ .choix{
+  position: relative;
+  left: 400px;
+ }
+ #fréquence{
+  position: relative;
+  left: 400px;
+  width: 600px;
+  padding-top: 0%;
+  background-color: transparent;
+
+ }
+ .s{
+  position: relative;
+  left: 400px;
+ }
+ #Des{
+background-color: transparent;
+width: 100px;
+height: 40px;
+opacity: 40%;
+color: #ffffff;
+ }
+ #Des1{
+  background-color: transparent;
+width: 100px;
+height: 40px;
+opacity: 40%;
+color: #ffffff;
+ }
+ #Des2{
+  background-color: transparent;
+width: 100px;
+height: 40px;
+opacity: 40%;
+color: #ffffff;
+ }
+ #Des:hover{
+  opacity: 100%;
+ }
+ #Des1:hover{
+  opacity: 100%;
+ }
+ #Des2:hover{
+  opacity: 100%;
+ }
+ #MESSAGE{
+  background-color: transparent;
+  padding-top: 0%;
+ }
+#CONFIRMER{
+  position: relative;
+  left: 600px;
+  background-image: linear-gradient(to right,#eddebf,#890008);
+  opacity: 40%;
+  border: 0px;
+  width: 250px;
+   height: 70px;
+   color:white;
+   font-family: 'Rajdhani';
+   font-size: 20px;
+ }
+#CONFIRMER:hover{
+  opacity: 100%;
+}
+.icon_guillemets_1{
+  position: relative;
+  top: -3100px;
+  left: 200px;
+}
+video{
+  position: relative;
+  top: -2400px;
+}
+.Bathome12{
+  position: relative;
+  top: -6690px;
+  left: 900px;
+}
+#pied{
+  position: relative;
+  top: -3100px;
+  text-align: center;
+}
+#pied2{
+  position: relative;
+  top: -3050px;
+  text-align: center;
+}
+#point{
+  position: relative;
+  top: -3000px;
+  text-align: center;
+  color:blue;
+}
+.icon_guillemets_2{
+  position: relative;
+  top: -3100px;
+  left: 900px;
+}
+#icon_WB{
+  position: relative;
+  top: -2910px;
+  left: 300px;
+}
+.para4{
+  position: relative;
+  top: -2940px;
+  left: 350px;
+  font-family:'Space Grotesk', sans-serif;
+  font-size: 10px;
+}
+#logo{
+  position: relative;
+  top: -2900px;
+  text-align: center;
+}
+#logo:hover{
+  background-color: #f8fa84;
+}
+#icon_x{
+  position: relative;
+  top: -10px;
+}
+#icon_facebook{
+  position: relative;
+  top: -10px;
+}
+#icon_ig{
+  position: relative;
+  top: -10px;
+}
+#icon_tw{
+  position: relative;
+  top: -10px;
+}
