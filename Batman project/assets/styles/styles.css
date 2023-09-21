@@ -1,6 +1,12 @@
 
   @import url(https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap);
 
+  @font-face{
+    font-family: 'Rajdhani';
+    src:url(./fonts/Rajdhani-Medium.ttf);
+    font-family: 'Space Grotesk';
+    src:url(./fonts/SpaceGrotesk-Bold.ttf),url(./fonts/SpaceGrotesk-Regular.ttf);
+  }
 
 body{
     background: black;
@@ -9,14 +15,26 @@ body{
     margin: 0 auto;
     padding: 10px 10px 10px 10px; 
     height: auto;
+    font-family: 'Space Grotesk';
+    font-weight: 300;
+    font-size: 18px;
 }
 :root{
     --yellow-color:#ffff00;
     --yellow-light:#f8f184;
-    --blue-color:#19587d;
+    --blue-color:#19587d82;
     --white-color:#ffffff;
     --gray-color:#C4C4C4;
+    --gradient-white:#eddebf4b;
+    --gradient-red:#89000952;
+    --black-color:#000000;
 
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 h1{
     font-family: 'Rajdhani';
@@ -53,100 +71,85 @@ ul a:hover{
 }
 
 #hero{
-    background-image: url(/assets/illustrations/Bathome1.png);
+    background-image: url(../illustrations/Bathome1.png);
     background-position: top center ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
 }
-.story{
-    text-align:center;
-    display: block;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    top: 400px;
-    position: relative;
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
     font-family:'Space Grotesk';
     font-size: 18px;
+}
+#hero .titre{
+    margin: 30px 0;
 
 }
-.icon{
-    float: right;
-    display:grid;
-    justify-content:space-between;
-    
+.scroll{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  right: 100px;
+  top: 250px;
 }
-.btn{
-    display: flex;
-    justify-content: space-between;
+.scroll .social{
+    margin-top: 50px;
 }
-#btn1{
-    background-image: linear-gradient(to right,#eddebf,#890008);
-    opacity: 40%;
-    border: 0px;
-    width: 250px;
-    height: 70px;
-    color:white;
-    font-family: 'Rajdhani';
-    font-size: 20px;
+.scroll .bat_flèche_2{
+    margin-top: 50px;
 }
-#btn1:hover{
+.btn {
+  background:linear-gradient(
+    80deg,var(--gradient-white),var(--gradient-red));
+  font-family:'Rajdhani' ;
+  font-size: 22px;
+  padding: 20px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  color:var(--white-color);
+  box-shadow: var(--black-color) 5px 5px 60px;
+  opacity: 40%;
+}
+.btn:hover{
     opacity: 100%;
 }
-#btn2{
-    background-image: linear-gradient(to right,#eddebf,#890008);
-    opacity: 40%;
-    border: 0px;
-    width: 250px;
-    height: 70px;
-    color:white;
-    font-family: 'Rajdhani';
-    font-size: 20px;
-}
-#btn2:hover{
-    opacity: 100%;
-}
-.logo_bat_flèche{
-    position: relative;
-    right: 100px;
-    top: 150px;
-}
-.icon_facebook{
-    position: relative;
-    right: 60px;
-    top: 180px;
 
-}
-.icon_ig{
-    position: relative;
-    right: 60px;
-    top: 200px;
-}
-.icon_tw{
-    position: relative;
-    right: 60px;
-    top: 220px;
-}
-.logo_bat_flèche_2{
-    position: relative;
-    right: 100px;
-    top: 250px;
-}
 .flèche_down{
-    position: relative;
-    left: 700px;
+    display: block;
+    margin: 0 auto;
 }
 
 .batman_personnage{
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
 }
-.batman_personnage p{
-    text-align: center;
-}
+
 .batman_personnage:hover{
     zoom: 105%;
+}
+.description{
+    font-family: 'Space Grotesk';
+    font-size: 22px;
+    text-align: justify;
+    margin-top: 40px;
+    width:80%;
+
+}
+.sous_titre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Space Grotesk';
+    font-size: 22px;
 }
 h2{
     font-family: 'Space Grotesk';
@@ -156,7 +159,8 @@ h2{
 }
 .nemesis_personnage{
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between; 
+    margin-top: 40px; 
 }
 .nemesis_personnage:hover{
     zoom: 105%;
@@ -166,97 +170,122 @@ h2{
     left: 250px;
     top: 100px;
 }
-.nemesis_personnage p{
-    text-align: center;
-}
 
 .alliés_personnage{
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
 }
-.alliés_personnage p{
-    text-align: center;
-}
+
 .alliés_personnage:hover{
     zoom:105%
 }
+.ctn_img{
+    width: 100%;
+}
+.left{
+    float: left;
+    margin-top: 100px;
+    background-color: transparent;
+    border: none;
+}
+.right{
+    float: right;
+    margin-top: 100px;
+    background-color: transparent;
+    border: none;
+}
+.slider_multimedia{
+    display: flex;
+    width: 60%;
+    margin: 40px auto;
+}
 
 .Bathome_ba1{
-    position: relative;
-    left: 300px;
-}
-.flèche_icon{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    top: -600px;
+    width: 100%;
 }
 .action{
-    width: 400px;
-    border: 1px solid white;
+  padding: 15px;
+  background-image: linear-gradient(
+    to right,var(--gradient-white),var(--blue-color));
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.action .texte2 {
     font-size: 12px;
-    position: relative;
-    left: 300px;
-    background-image:linear-gradient(to right,#c4c4c4,#19587D) ;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
-.action_ba1{
-    display: inline-flex;
+.action .texte{
+    margin-top :10px; ;
 }
+.action .texte span {
+    color: var(--yellow-color);
+    font-weight: bold;
+}
+h3{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.action h4{
+    font-size: 14px;
+    font-family: 'Rajdhani';
+    font-weight: 500;
+    margin-top: 10px;
 
-.ctn_multi{
-    display: flex;
-    align-items: center;
-    
-    
 }
-.flèche{
- width: 20px;
- border: transparent;
-}
-
 #forme{
     border: 1px solid white;
     width: 1500px;
-    background-image: linear-gradient(to right,#c4c4c4,#19587D);
-    height: 750px;
-    display:inline-block;
-    
+    background-image: linear-gradient(
+        to right,var(--gradient-white),var(--blue-color));
+    height: 850px;
+    align-items: center;
+    margin: 0 auto;
 }
 #form{
-    position: relative;
-    left: 300px;
+    margin: 0 auto;
+    align-items: center;
+}
+.prenoms{
+    font-size: 36px;
+    margin-top: 30px;
+    font-family: 'Rajdhani';
+    font-weight:bold;
 }
 #email{
     width: 1000px;
-    border-style:none;
+    border-bottom: 1px solid var(--white-color);
     background-color: transparent;
-    text-decoration: overline;
+    
 }
 #choix{
-    text-decoration:underline;
-}
-#btn_form1{
-    position: relative;
-    left: 300px;
-    text-decoration: none;
-    background-color: transparent;
-    color: #ffffff;
-}
-#btn_form2{
-    position: relative;
-    left: 300px;
-    text-decoration: none;
-    background-color: transparent;
-}
-#btn_form3{
-    position: relative;
-    left: 300px;
-    text-decoration: none;
-    background-color: transparent;
-}
+    border-bottom: 1px solid var(--white-color);
 
+}
+.souhaite{
+    border-bottom: 1px solid var(--white-color);
+
+}
+.btn_bat{
+    text-align: center;
+}
+.btn_bat a {
+    flex: 1;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    color:white;
+    background: transparent;
+    justify-content: space-between;
+    border: 0.1px solid white;
+    padding: 5px 10px;   
+    font-size: 12px; 
+    position: relative;
+    top: 50px;
+    right: 150px;
+  }
+.btn_bat a:hover {
+  opacity: 100%;
+}
 #textarea{
     width: 1000px;
     background-color: transparent;
@@ -264,16 +293,20 @@ h2{
     height: 20px;
 }
 #CONFIRMER{
+    background:linear-gradient(
+     80deg,var(--gradient-white),var(--gradient-red));
+    font-family:'Rajdhani' ;
+    font-size: 22px;
+    padding: 20px 20px;
+    margin:0 auto;
+    text-decoration: none;
+    color:var(--white-color);
+    box-shadow: var(--black-color) 5px 5px 60px;
+    left:500px;
     position: relative;
-    left: 300px;
-    background-image: linear-gradient(to right,#eddebf,#890008);
     opacity: 40%;
-    border: 0px;
-    width: 250px;
-    height: 70px;
-    color:white;
-    font-family: 'Rajdhani';
-    font-size: 20px;
+
+      
 }
 #CONFIRMER:hover{
     opacity: 100%;
@@ -298,6 +331,7 @@ h2{
 .auteur{
     font-family: 'Space Grotesk';
     font-size: 12px;
+    padding-top: 50px;
 }
 
 .point{
@@ -326,7 +360,7 @@ h2{
 }
 .Bathome12{
     position: relative;
-    top: -3800px;
+    top: -3830px;
     left: 1050px;
 }
 .prenoms{
