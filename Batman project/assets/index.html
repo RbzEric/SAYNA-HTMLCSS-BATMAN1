@@ -7,10 +7,14 @@
     <link  href="./styles/styles.css"  rel="stylesheet" type="text/css">
 </head>
 <body>
+    <div class="up-bar"></div>
+    <div class="left-bar"></div>
+    <div class="right-bar"></div>
+
     <header>
       <nav class="container" id="navigateur">
         <a href="index.html">
-            <img src="./logos/logohome.png" alt="logo">
+            <img class="logo" src="./logos/logohome.png" alt="logo">
         </a>
         <ul>
             <li><a href="index.html">HOME</a></li>
@@ -18,6 +22,8 @@
       </nav>
     </header>
     <main>
+    <div class="left-bar2"></div>
+    <div class="right-bar2"></div>
             <div class="scroll">
                 
                 <a href="#navigateur"><img src="./logos/logo_bat_flèche.png" alt=""></a>
@@ -49,6 +55,8 @@
           <div>
             <img class="flèche_down" src="./logos/flèche_down_header.png" alt="flèche_down_header">
           </div> <br><br> <br><br><br>
+          <div class="left-bar3"></div>
+          <div class="right-bar3"></div>
    <section>
         <div class="container">
         <h1 id="BATMAN_AU_CINÉMA">BATMAN AU CINÉMA</h1>
@@ -85,6 +93,8 @@
     </section>
     <img src="./illustrations/Bathome13.png" alt="" height="100" width="100" class="logo_nemesis">
     <br><br><br>
+          <div class="left-bar4"></div>
+          <div class="right-bar4"></div>
     <section>
         <div class="container">
           <h1 id="NÉMÉSIS">NÉMÉSIS</h1>
@@ -119,6 +129,8 @@
         </div>
     </section>
     <br><br><br>
+    <div class="left-bar5"></div>
+    <div class="right-bar5"></div>
     <section>
         <div class="container">
              <h1>ALLIES</h1>
@@ -154,7 +166,10 @@
          </div>
     </section>
     <br><br>
+    <div class="left-bar6"></div>
+    <div class="right-bar6"></div>
     <section>
+        
         <div class="container">
           <h1>JUSTICE LEAGUE</h1>
           <p class="description">Lorsque la Terre est menacée les plus grands super-héros s’allient pour la protéger. Ils 
@@ -202,19 +217,24 @@
         </div>
      </div>
     </section>
-<section id="forme">
-   <div class="container">
-        <h2 class="prenoms">PRENOMS CONTACT</h2> <br><br><br><br>
+    <div class="right-bar6"></div>
+<section id="contact">
+   <div class="forme">
+        <h2>PRENOMS CONTACT</h2> 
         <form action="#" id="form">
-            <label for="email">Adresse email</label><br><br>
-            <input type="email" name="email" id="email" placeholder="Adresse email"><br><br>
-            <label for="newsletter">NEWSLETTER</label><br><br>
+            <label class="titre2" for="email">Adresse email</label>
+            <input type="email" name="email" placeholder="Adresse email">
+            <label class="titre2" for="newsletter">NEWSLETTER</label>
             <label for="checkbox">En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de 
-                       <br> Batman: </label>
+                        Batman: </label>
             <input type="checkbox" name="choix" value="c" id="checkbox">
-            <br><br>
             <div>
-              <span id="choix">Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</span>
+                <div class="menu_deroulant">
+                       <span id="choix">Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</span>
+                       <span class="selection">
+                           <img src="./logos/icon_flèche_2.png" alt="">
+                       </span>
+                </div>
                <span>
                 <select name="durée">
                 <option value="B">Une fois touts les deux semaines(2 fois par mois)</option>
@@ -223,25 +243,25 @@
                 <option value="E">Une fois tous les six mois</option>
                 </select>
                </span>
-               <br><br><br>
-               <div class="souhaite">
-                 <p>souhaitez vous recevoir des news</p><br>
+               <div class="news">
+                 <p>souhaitez vous recevoir des news</p>
                </div>
-                <div class="btn_bat">
-               <a href="#" class="bat1">Des films</a>
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="bat1">Des comics</a>
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="bat1">De tout</a>
-                 </div>  
+                <div class="btn_news">
+                    <input type="radio"  id="film">
+                    <label for="film">Des films</label>
+                    <input type="radio" id="comics">
+                    <label for="comics">Des comics</label>
+                    <input type="radio" id="tout">
+                    <label for="tout">De tout</label>
+                </div>  
             </div>
-            <br><br><br><br>
-            <label>MESSAGE</label> <br><br>
-            <textarea name="text" id="textarea" cols="30" placeholder="Laissez un commentaire pour la communauté"></textarea>
-            <br><br>
+            <p class="titre2">MESSAGE</p>
+            <textarea name="text" cols="30" placeholder="Laissez un commentaire pour la communauté"></textarea>
             <input type="submit" value="CONFIRMER" id="CONFIRMER">
     </form>
     </div> <br><br><br><br>
 </section>
-    <section id="citation">
+    <section id="pied">
     <div class="container">
         <div>
             <img src="./logos/icon_guillemets_1.png" alt="icon_guillemets_1" class="icon_guillemets_1">
